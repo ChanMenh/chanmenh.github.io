@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top, #a2d9ff, #e0f7ff); /* blue sky theme */
+  font-family: 'Segoe UI', sans-serif;
+  color: #033e6b;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #0077b6;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+.main-btn {
+  display: inline-block;
+  margin: 30px auto;
+  padding: 12px 25px;
+  background-color: #0077b6;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.main-btn:hover {
+  background-color: #005f99;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.95rem;
+  color: #033e6b;
+}
+
+footer a {
+  color: #033e6b;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.projects-list {
+  text-align: left;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.projects-list li {
+  margin-bottom: 20px;
+}
