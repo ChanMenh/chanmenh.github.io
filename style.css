@@ -75,3 +75,12 @@ footer a:hover {
 .projects-list li {
   margin-bottom: 20px;
 }
+.project-thumbnail {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
